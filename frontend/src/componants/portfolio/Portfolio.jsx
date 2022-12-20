@@ -40,36 +40,7 @@ const Portfolio = () => {
             <a href="" className='btn btn-primary disable-demo' >Live Demo</a>
           </div>
         </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-img">
-            <img src="https://source.unsplash.com/user/c_v_r/100x100" alt="" />
-          </div>
-          <h3>Tiltle here</h3>
-          <div className="portfolio-item-cta">
-            <a href="https://www.google.com" className='btn' target='_blank' >Github</a>
-            <a href="https://www.google.com"  className='btn btn-primary' target='_blank' >Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-img">
-            <img src="https://source.unsplash.com/user/c_v_r/100x100" alt="" />
-          </div>
-          <h3>Tiltle here</h3>
-          <div className="portfolio-item-cta">
-            <a href="https://www.google.com" className='btn' target='_blank' >Github</a>
-            <a href="https://www.google.com" className='btn btn-primary' target='_blank' >Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio-item">
-          <div className="portfolio-item-img">
-            <img src="https://source.unsplash.com/user/c_v_r/100x100" alt="" />
-          </div>
-          <h3>Tiltle here</h3>
-          <div className="portfolio-item-cta">
-            <a href="https://www.google.com" className='btn' target='_blank' >Github</a>
-            <a href="https://www.google.com" className='btn btn-primary' target='_blank' >Live Demo</a>
-          </div>
-        </article>
+       
       </div>
     </section>
   )
