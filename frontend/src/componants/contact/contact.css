@@ -1,5 +1,6 @@
 #contact{
     padding-top: 2rem;
+    
 }
 .container.contact-container{
     width: 58%;
@@ -76,5 +77,9 @@ input,textarea{
     .container.contact-container{
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
+    }
+    #contact{
+        padding-bottom: 2rem;
+        
     }
   }

@@ -28,7 +28,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background: url(../src/assets/bgimage.jpg);
+  /* background: url(../src/assets/bgimage.jpg); */
 }
 
 /* ========================   GENERAL STYLES ============================ */
