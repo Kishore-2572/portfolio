@@ -28,7 +28,9 @@ const About = () => {
               <small>3 completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, illum! Similique rerum iure optio iste a totam distinctio maiores dicta sapiente sequi dolores praesentium in ex, laboriosam ea excepturi animi, reprehenderit quidem molestias, nihil odit velit modi! Harum, repudiandae aliquid eaque illum natus, id doloribus debitis omnis officia tempora dolore.</p>
+          <p>Hello there, I'm Kishore, I am a Full Stack Web Developer and also an app developer. An Open Source enthusiast and a Computer Science student from India.</p>
+
+<p>I love working on new and exciting technologies emerging nowadays. I have good experience as a MERN Stack Developer as well as a Flutter App Developer. where I was a core member of the development team and done quite some contributions to open source as well.</p>
           <a href="#contact" className='btn btn-primary' >Let's Talk</a>
         </div>
       </div>
