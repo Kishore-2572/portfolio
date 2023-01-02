@@ -37,7 +37,7 @@ const Portfolio = () => {
           <h3>Salon Booking website developed with flask</h3>
           <div className="portfolio-item-cta">
             <a href="https://github.com/Kishore-2572/salon-booking" className='btn'  target='_blank' >Github</a>
-            <a href="" className='btn btn-primary disable-demo' >Live Demo</a>
+            <a href="" className='btn btn-primary disable-demo' >Live Demo Not Available</a>
           </div>
         </article>
        
