@@ -6,7 +6,7 @@ const Experiance = () => {
   return (
     <section id="experiance">
       <h5>What Skills I Have</h5>
-      <h2>My Experiance</h2>
+      <h2>My Experience</h2>
       <div className="container exp-container">
         <div className="exp-frontend">
           <h3>Frontend Development</h3>
@@ -15,14 +15,14 @@ const Experiance = () => {
               <BsPatchCheckFill className='exp-details-icon' />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experiance</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="exp-details">
               <BsPatchCheckFill className='exp-details-icon' />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experiance</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="exp-details">
@@ -50,7 +50,7 @@ const Experiance = () => {
               <BsPatchCheckFill className='exp-details-icon' />
               <div>
                 <h4>Flutter</h4>
-                <small className="text-light">Experiance</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
           </div>
@@ -63,14 +63,14 @@ const Experiance = () => {
               <BsPatchCheckFill className='exp-details-icon' />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experiance</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="exp-details">
               <BsPatchCheckFill className='exp-details-icon' />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Experiance</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
             <article className="exp-details">
