@@ -37,7 +37,7 @@ const Portfolio = () => {
           <h3>Salon Booking website developed with flask</h3>
           <div className="portfolio-item-cta">
             <a href="https://github.com/Kishore-2572/salon-booking" className='btn'  target='_blank' >Github</a>
-            <a href="https://zrog.onrender.com/" className='btn btn-primary disable-demo' >Live Demo</a>
+            <a href="https://zrog.onrender.com/" className='btn btn-primary' >Live Demo</a>
           </div>
         </article>
        
