@@ -1,0 +1,124 @@
+.experience {
+  padding: var(--section-padding);
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: var(--gradient-1);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 60px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -9px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--gradient-1);
+  box-shadow: 0 0 0 4px var(--dark-bg), 0 0 0 8px rgba(102, 126, 234, 0.2);
+}
+
+.timeline-content {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+  transition: var(--transition-fast);
+}
+
+.timeline-content:hover {
+  transform: translateX(10px);
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.2);
+}
+
+.timeline-date {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(102, 126, 234, 0.1);
+  color: var(--primary-color);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.timeline-title {
+  font-size: 24px;
+  color: var(--text-primary);
+  margin-bottom: 5px;
+}
+
+.timeline-company {
+  font-size: 18px;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.timeline-description {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.timeline-description li {
+  color: var(--text-secondary);
+  font-size: 15px;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.timeline-description li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.timeline-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  padding: 6px 14px;
+  background: rgba(102, 126, 234, 0.1);
+  color: var(--primary-color);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+@media screen and (max-width: 968px) {
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-item {
+    padding-left: 50px;
+  }
+
+  .timeline-dot {
+    left: 1px;
+  }
+}

@@ -1,25 +1,28 @@
+import React from 'react';
 import './App.css';
-import Header from './componants/header/Header';
-import Nav from './componants/nav/Nav';
-import About from './componants/about/About';
-import Experiance from './componants/experiance/Experiance';
-import Services from './componants/services/Services';
-import Portfolio from './componants/portfolio/Portfolio';
-import Contact from './componants/contact/Contact';
-import Footer from './componants/footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Experience from './components/Experience/Experience';
+import Skills from './components/Skills/Skills';
+import Education from './components/Education/Education';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Nav />
+    <div className="App">
+      <Navbar />
+      <Hero />
       <About />
-      <Experiance />
-      <Services />
-      <Portfolio />
+      <Experience />
+      <Skills />
+      <Education />
       <Contact />
       <Footer />
-    </>
+      <ScrollToTop />
+    </div>
   );
 }
 

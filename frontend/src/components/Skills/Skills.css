@@ -1,0 +1,125 @@
+.skills {
+  padding: var(--section-padding);
+  background: var(--darker-bg);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.skill-category {
+  background: var(--card-bg);
+  padding: 35px;
+  border-radius: 15px;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+  transition: var(--transition-fast);
+}
+
+.skill-category:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.2);
+  transform: translateY(-5px);
+}
+
+.category-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--gradient-1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-icon i {
+  font-size: 28px;
+  color: var(--text-primary);
+}
+
+.category-title {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: var(--text-primary);
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skill-name {
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.skill-bar {
+  height: 8px;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: var(--gradient-1);
+  border-radius: 10px;
+  transition: width 1.5s ease-out;
+}
+
+.ai-tools-section {
+  margin-top: 40px;
+}
+
+.ai-tools-card {
+  background: var(--card-bg);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+  transition: var(--transition-fast);
+}
+
+.ai-tools-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.2);
+}
+
+.ai-tools-card i {
+  font-size: 50px;
+  background: var(--gradient-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.ai-tools-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.ai-tools-card p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 968px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
